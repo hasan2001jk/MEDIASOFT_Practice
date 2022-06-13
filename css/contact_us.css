@@ -29,7 +29,8 @@ html,body{
 }
 
 .blog_head h1{
-    /* font-family: Gilroy; */
+    font-family: 'Gilroy';
+    font-weight: 600;
     font-size: 44px;
     line-height: 74px;
     letter-spacing: 0.04em;
@@ -39,7 +40,8 @@ html,body{
 }
 
 .blog_head p{
-    /* font-family: 'Gilroy'; */
+    font-family: 'Gilroy';
+    font-weight: 300;
     font-size: 20px;
     line-height: 30px;
     text-align: center;
@@ -83,8 +85,9 @@ html,body{
     height: 100%;
 }
 
-.contact_feed_header{
-    /* font-family: 'Gilroy'; */
+.contact_feed_header h2{
+    font-family: 'Gilroy';
+    font-weight: 600;
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 0.04em;
@@ -95,7 +98,7 @@ html,body{
 
 
 .contact_feed_text{
-    /* font-family: 'Gilroy'; */
+    font-family: 'Gilroy';
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.04em;
@@ -137,7 +140,7 @@ html,body{
 }
 
 .add_wrap_phone{
-    /* font-family: 'Gilroy'; */
+    font-family: 'Gilroy';
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.04em;
@@ -173,7 +176,7 @@ html,body{
 
 .service_phone{
     /* margin-top: auto; */
-    /* font-family: 'Gilroy'; */
+    font-family: 'Gilroy';
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.05em;
@@ -194,8 +197,9 @@ html,body{
     padding: 56px;
 }
 
-.send_message_header{
-    /* font-family: 'Gilroy'; */
+.send_message_header h2{
+    font-family: 'Gilroy';
+    font-weight: 700;
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 0.04em;
@@ -211,7 +215,7 @@ html,body{
 }
 
 .send_message_wrap label{
-    /* font-family: 'Gilroy'; */
+    font-family: 'Gilroy';
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.04em;
@@ -230,12 +234,12 @@ html,body{
 
 .send_message_wrap input::placeholder{
 
-    /* font-family: 'Gilroy'; */
+    font-family: 'Gilroy';
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.04em;
-    color: #1F3F68;
-    opacity: 0.2;
+    color: rgba(31, 63, 104, 0.4);
+    /* opacity: 0.2; */
     text-transform: capitalize;
 }
 
@@ -312,6 +316,8 @@ footer{
 }
 
 .work_wrapper h2{
+    font-family: 'Gilroy';
+    font-weight: 600;
     font-size: 36px;
     line-height: 46px;
     letter-spacing: 0.05em;
@@ -320,6 +326,7 @@ footer{
 }
 
 .work_wrapper p{
+    font-family: 'Gilroy';
     max-width: 460px;
     text-align: justify;
     font-size: 16px;
@@ -330,6 +337,8 @@ footer{
 }
 
 .footer_wrapper_work a{
+    font-family: 'Gilroy';
+    font-weight: 200;
     text-transform: capitalize;
     align-self: center;
     text-decoration: none;
@@ -398,6 +407,8 @@ hr{
 
 
 .ft_contacts_wrapper h2{
+    font-family: 'Gilroy';
+    font-weight: 600;
     margin-left:16px;
     font-size: 28px;
     line-height: 46px;
@@ -406,6 +417,7 @@ hr{
 }
 
 .ft_contacts_wrapper p{
+    font-family: 'Gilroy';
     margin-left: 16px;
     font-size: 16px;
     line-height: 26px;
@@ -415,6 +427,7 @@ hr{
 }
 
 .ft_contacts_wrapper span{
+    font-family: 'Gilroy';
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.05em;
@@ -434,6 +447,8 @@ hr{
 }
 
 .ft_about_wrapper h2{
+    font-family: 'Gilroy';
+    font-weight: 600;
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 0.05em;
@@ -442,6 +457,7 @@ hr{
 }
 
 .ft_about_wrapper p{
+    font-family: 'Gilroy';
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.05em;
@@ -475,6 +491,8 @@ hr{
 }
 
 .ft_follow_wrapper h2{
+    font-family: 'Gilroy';
+    font-weight: 600;
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 0.05em;
@@ -483,6 +501,7 @@ hr{
 }
 
 .ft_follow_wrapper p{
+    font-family: 'Gilroy';
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.05em;
@@ -501,6 +520,8 @@ hr{
 }
 
 .copyright{
+    font-family: 'Gilroy';
+    font-weight: 300;
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.05em;

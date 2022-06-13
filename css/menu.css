@@ -185,7 +185,7 @@ body.lock{
     text-transform: capitalize;
     font-size: 16px;
     text-decoration: none;
-    font-weight: 100;
+    font-weight: 200;
     line-height: 26px;
 }
 
@@ -255,7 +255,7 @@ body.lock{
 
 .article_header{
     font-family: 'Galien';
-    font-size: 26px;
+    font-size: 32px; /*64px*/
     line-height: 74px;  
     letter-spacing: 0.04em;
     width:510px;
@@ -268,9 +268,6 @@ body.lock{
 }
 
 .article_background{
-    /* position:absolute;
-    right: 0;
-    top:0; */
     float:right;
     /* display: inline-block; */
     max-width:500px;
@@ -310,6 +307,6 @@ body.lock{
     color: #FFFFFF;
     text-decoration: none;
     text-transform: capitalize;
-    font-weight: 100;
+    font-weight: 200;
 }
 

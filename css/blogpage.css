@@ -16,6 +16,7 @@ html,body{
 }
 
 .blog_head{
+    font-family: 'Gilroy';
     background-image:url("../img/blog_background.jpg");
     background-repeat:no-repeat;
     background-size:cover;
@@ -28,6 +29,7 @@ html,body{
 }
 
 .blog_head h1{
+    font-weight: 600;
     font-size: 44px;
     line-height: 74px;
     text-align: center;
@@ -37,6 +39,7 @@ html,body{
 }
 
 .blog_head p{
+    font-weight: 300;
     font-size: 20px;
     line-height: 30px;
     text-align: center;
@@ -78,6 +81,7 @@ html,body{
 }
 
 .search_place{
+    font-family: 'Gilroy';
     outline: none;
     width: 92%;
     /* padding: 2px; */
@@ -93,6 +97,8 @@ html,body{
 }
 
 .popular_header{
+    font-family: 'Gilroy';
+    font-weight: 600;
     font-size: 20px;
     line-height: 25px;
     letter-spacing: 0.04em;
@@ -119,6 +125,7 @@ html,body{
 }
 
 .main_article h2{
+    font-family: 'Galien';
     font-size: 48px;
     line-height: 58px;
     letter-spacing: 0.04em;
@@ -127,6 +134,7 @@ html,body{
 }
 
 .main_article_text{
+    font-family: 'Gilroy';
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.04em;
@@ -157,6 +165,7 @@ html,body{
 }
 
 .article_footer_st_wrap p{
+    font-family: 'Gilroy';
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.04em;
@@ -221,9 +230,9 @@ html,body{
 }
 
 .article_card h2{
-    font-family: 'Galien-Regular';
+    font-family: 'Galien';
     /* Needs to correct the fonts in future */
-     font-size: 24px;  /*28px */
+     font-size: 28px;  /*28px */
     line-height: 38px;
     letter-spacing: 0.04em;
     color: #1F3F68;
@@ -231,6 +240,7 @@ html,body{
 }
 
 .article_card_text{
+    font-family: 'Gilroy';
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.04em;
@@ -254,6 +264,7 @@ html,body{
 }
 
 .article_card_st_wrap p{
+    font-family: 'Gilroy';
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.04em;
@@ -288,6 +299,8 @@ html,body{
 }
 
 .main_link{
+    font-family: 'Gilroy';
+    font-weight: 500;
     width: 100%;
     /* border:1px solid blue; */
     text-align: right;
@@ -321,7 +334,8 @@ html,body{
 
 
 .all_articles_header{
-    /* font-family: 'Gilroy'; */
+    font-family: 'Gilroy';
+    font-weight: 600;
     font-size: 20px;
     line-height: 25px;
     letter-spacing: 0.04em;
@@ -362,8 +376,8 @@ html,body{
 }
 
 .all_card_header{
-    /* font-family: 'Galien'; */
-    font-size: 18px; /*28px*/
+    font-family: 'Galien';
+    font-size: 22px; /*28px*/
     line-height: 38px;
     letter-spacing: 0.04em;
     color: #1F3F68;
@@ -372,7 +386,7 @@ html,body{
 }
 
 .all_card_text{
-    /* font-family: 'Gilroy'; */
+    font-family: 'Gilroy';
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.04em;
@@ -398,6 +412,7 @@ html,body{
 }
 
 .all_card_st_wrap p{
+    font-family: 'Gilroy';
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.04em;
@@ -442,13 +457,12 @@ html,body{
 }
 
 .all_next{
-    /* font-family: 'Gilroy'; */
+    font-family: 'Gilroy';
+    font-weight: 500;
     font-size: 16px;
     line-height: 20px;
     letter-spacing: 0.04em;
     color: #356EAD;
-    font-weight: bold;
-    /* padding:10px; */
     text-transform: capitalize;
 }
 
@@ -464,12 +478,12 @@ html,body{
 
 
 .all_prev{
-    /* font-family: 'Gilroy'; */
+    font-family: 'Gilroy';
+    font-weight: 500;
     font-size: 16px;
     line-height: 20px;
     letter-spacing: 0.04em;
     color: #356EAD;
-    font-weight: bold;
     text-transform: capitalize;
 }
 
@@ -515,6 +529,8 @@ footer{
 }
 
 .work_wrapper h2{
+    font-family: 'Gilroy';
+    font-weight: 600;
     font-size: 36px;
     line-height: 46px;
     letter-spacing: 0.05em;
@@ -523,6 +539,7 @@ footer{
 }
 
 .work_wrapper p{
+    font-family: 'Gilroy';
     max-width: 460px;
     text-align: justify;
     font-size: 16px;
@@ -533,6 +550,8 @@ footer{
 }
 
 .footer_wrapper_work a{
+    font-family: 'Gilroy';
+    font-weight: 200;
     text-transform: capitalize;
     align-self: center;
     text-decoration: none;
@@ -601,6 +620,8 @@ hr{
 
 
 .ft_contacts_wrapper h2{
+    font-family: 'Gilroy';
+    font-weight: 600;
     margin-left:16px;
     font-size: 28px;
     line-height: 46px;
@@ -609,6 +630,7 @@ hr{
 }
 
 .ft_contacts_wrapper p{
+    font-family: 'Gilroy';
     margin-left: 16px;
     font-size: 16px;
     line-height: 26px;
@@ -618,6 +640,7 @@ hr{
 }
 
 .ft_contacts_wrapper span{
+    font-family: 'Gilroy';
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.05em;
@@ -637,6 +660,8 @@ hr{
 }
 
 .ft_about_wrapper h2{
+    font-family: 'Gilroy';
+    font-weight: 600;
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 0.05em;
@@ -645,6 +670,7 @@ hr{
 }
 
 .ft_about_wrapper p{
+    font-family: 'Gilroy';
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.05em;
@@ -678,6 +704,8 @@ hr{
 }
 
 .ft_follow_wrapper h2{
+    font-family: 'Gilroy';
+    font-weight: 600;
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 0.05em;
@@ -686,6 +714,7 @@ hr{
 }
 
 .ft_follow_wrapper p{
+    font-family: 'Gilroy';
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.05em;
@@ -704,6 +733,8 @@ hr{
 }
 
 .copyright{
+    font-family: 'Gilroy';
+    font-weight: 300;
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.05em;
@@ -712,5 +743,3 @@ hr{
     margin-top: 40px;
     margin-bottom: 64px;
 }
-
-

@@ -36,7 +36,8 @@ html,body{
 
 .article_header{
     /* 64px is too high! I preffered 32px */
-    font-size: 32px;
+    font-family: 'Galien';
+    font-size: 38px;
     line-height: 74px;
     color:rgba(31, 63, 104, 1);
     letter-spacing: 0.04em;
@@ -51,15 +52,6 @@ html,body{
     padding: 0px;
     margin:0px;
 }
-/* 
-.article_img{
-    /* max-width:700px;
-    max-height: 600px; */
-    /* float: right; */
-    /* border:1px solid black; */
-    /*
-} 
-*/
 
 .article_img img{
     width: 100%;
@@ -67,6 +59,7 @@ html,body{
 }
 
 .article_subheader{
+    font-family: 'Gilroy';
     text-align:justify;
     margin-top: 32px;
     font-size: 16px;
@@ -85,17 +78,19 @@ html,body{
 }
 
 .btn{
+    font-family: 'Gilroy';
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+  
     background: #5A98D0;
     box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
     border-radius: 10px;
     padding:15px 48px 15px 48px;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.04em;
     color: #FFFFFF;
     text-decoration: none;
     text-transform: capitalize;
-    /* font-weight: 100; */
+    font-weight: 200;
 }
 
 
@@ -125,12 +120,15 @@ html,body{
 }
 
 .article_nd_header{
+    font-family: 'Gilroy';
 	max-width: 50%;
-    font-size: 32px;
+    height: 100%;
+    font-size: 36px;
     text-align:justify;
     line-height: 46px;
     letter-spacing: 0.05em;
     color: #316099;
+    font-weight: 700;
     /* border:1px solid red; */
 }
 
@@ -169,15 +167,18 @@ html,body{
 }
 
 .card_header{
-    font-size: 17px;
+    font-family: 'Gilroy';
+    font-size: 20px;
     line-height: 30px;
     letter-spacing: 0.05em;
     color: #1F3F68;
     /* border:1px solid black; */
     margin-bottom: 16px;
+    font-weight: 700;
 }
 
 .card_subheader{
+    font-family: 'Gilroy';
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.05em;
@@ -185,10 +186,12 @@ html,body{
     opacity: 0.6;
     /* border:1px solid black; */
     margin-bottom: 32px;
+    text-align: left;
 }
 
 .card_link{
     /* border:1px solid peru; */
+    font-family: 'Gilroy';
     font-size: 14px;
     line-height: 30px;
     letter-spacing: 0.05em;
@@ -200,6 +203,7 @@ html,body{
     text-decoration: none;    
     display: flex;
     align-items: center;
+    color: #5A98D0;
 }
 
 .card_link a:after{
@@ -220,6 +224,7 @@ html,body{
 
 
 .wrap_article_footer h2{
+    font-family: 'Gilroy';
     font-size: 36px;
     line-height: 46px;
     letter-spacing: 0.05em;
@@ -227,6 +232,7 @@ html,body{
 }
 
 .wrap_article_footer p{
+    font-family: 'Gilroy';
     width:50%;
     font-size: 16px;
     line-height: 26px;
@@ -254,15 +260,18 @@ html,body{
 }
 
 .article_rd_img h2{
+    font-family: 'Gilroy';
     /* margin-top: 48px; */
     margin-right: 66px;
     font-size: 28px;
     line-height: 46px; 
     letter-spacing: 0.05em;
     color: #FFFFFF;
+    font-weight: 400;
 }
 
 .article_rd_img p{
+    font-family: 'Gilroy';
     margin-top: 8px;
     margin-right: 66px;
     font-size: 16px;
@@ -270,6 +279,7 @@ html,body{
     letter-spacing: 0.05em;
     color: #FFFFFF;
     opacity: 0.8;
+    font-weight: 200;
 }
 
 
@@ -286,6 +296,7 @@ html,body{
 
 
 .art_rd_im{
+    font-family: 'Gilroy';
     background-image:url("../img/Mask_nd.jpg");
     background-repeat: no-repeat;
     background-size:contain;
@@ -297,6 +308,7 @@ html,body{
 }
 
 .art_rd_im h2{
+    font-weight: 400;
     margin-top: 24px;
     margin-left: 32px;
     font-size: 28px;
@@ -306,6 +318,7 @@ html,body{
 }
 
 .art_rd_im p{
+    font-weight: 200;
     margin-top: 4px;
     margin-left: 32px;
     font-size: 16px;
@@ -347,7 +360,9 @@ html,body{
 }
 
 .footer_wrapper h2{
-    max-width: 223px;
+    font-weight: 600;
+    font-family: 'Gilroy';
+    max-width: 250px;
     font-size: 36px;
     line-height: 46px;
     letter-spacing: 0.05em;
@@ -356,6 +371,8 @@ html,body{
 }
 
 .footer_wrapper p{
+    font-family: 'Gilroy';
+    font-weight: 300;
     max-width: 540px;
     font-size: 16px;
     line-height: 26px;
@@ -388,6 +405,8 @@ html,body{
 }
 
 .footer_table{
+    font-family: 'Gilroy';
+    font-weight: 400;
     max-width:25%;
     max-height: 128px;
     padding:41px 46px 41px 46px;
@@ -404,10 +423,6 @@ html,body{
 .row_wrapper:nth-child(1) .footer_table{
     border-bottom:1px solid #FFFFFF;
 }
-/* 
-.row_wrapper:nth-child(1) .footer_table:nth-last-child(){
-    border-right:none;
-} */
 
 .row_wrapper .footer_table:nth-child(4){
     border-right:none;
@@ -422,7 +437,7 @@ html,body{
 .footer_table span{
     opacity: 1;
     text-transform: capitalize;
-    font-size: 21px;
+    font-size: 22px;/*Special*/
     line-height: 46px;
     letter-spacing: 0.02em;
     color: #FFFFFF;
@@ -456,6 +471,8 @@ html,body{
 }
 
 .work_wrapper h2{
+    font-family: 'Gilroy';
+    font-weight: 600;
     font-size: 36px;
     line-height: 46px;
     letter-spacing: 0.05em;
@@ -464,6 +481,7 @@ html,body{
 }
 
 .work_wrapper p{
+    font-family: 'Gilroy';
     max-width: 460px;
     text-align: justify;
     font-size: 16px;
@@ -474,6 +492,8 @@ html,body{
 }
 
 .footer_wrapper_work a{
+    font-family: 'Gilroy';
+    font-weight: 200;
     text-transform: capitalize;
     align-self: center;
     text-decoration: none;
@@ -542,6 +562,8 @@ hr{
 
 
 .ft_contacts_wrapper h2{
+    font-family: 'Gilroy';
+    font-weight: 600;
     margin-left:16px;
     font-size: 28px;
     line-height: 46px;
@@ -550,6 +572,7 @@ hr{
 }
 
 .ft_contacts_wrapper p{
+    font-family: 'Gilroy';
     margin-left: 16px;
     font-size: 16px;
     line-height: 26px;
@@ -559,6 +582,7 @@ hr{
 }
 
 .ft_contacts_wrapper span{
+    font-family: 'Gilroy';
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.05em;
@@ -578,6 +602,8 @@ hr{
 }
 
 .ft_about_wrapper h2{
+    font-family: 'Gilroy';
+    font-weight: 600;
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 0.05em;
@@ -586,6 +612,7 @@ hr{
 }
 
 .ft_about_wrapper p{
+    font-family: 'Gilroy';
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.05em;
@@ -619,6 +646,8 @@ hr{
 }
 
 .ft_follow_wrapper h2{
+    font-family: 'Gilroy';
+    font-weight: 600;
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 0.05em;
@@ -627,6 +656,7 @@ hr{
 }
 
 .ft_follow_wrapper p{
+    font-family: 'Gilroy';
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.05em;
@@ -645,6 +675,8 @@ hr{
 }
 
 .copyright{
+    font-family: 'Gilroy';
+    font-weight: 300;
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.05em;
